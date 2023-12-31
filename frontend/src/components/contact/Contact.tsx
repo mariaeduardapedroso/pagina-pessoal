@@ -29,7 +29,7 @@ export const Contact = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:3000/api/form", {
+      const response = await fetch("https://vivacious-sweatsuit-wasp.cyclic.app/api/form", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

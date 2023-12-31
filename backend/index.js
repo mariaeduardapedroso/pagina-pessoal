@@ -17,7 +17,7 @@ const connection = mysql.createConnection({
     password: 'HH5C6DF2dg54fHcc66hBhGhB4bafc1G6',
     database: 'railway',
     port: 15357,
-    connectTimeout: 60000, // 60 segundos (ou ajuste conforme necessário)
+    connectTimeout: 600000000, // 60 segundos (ou ajuste conforme necessário)
   });  
 
 connection.connect((err) => {
