@@ -54,6 +54,7 @@ export const Contact = () => {
       }
     } catch (error) {
       console.error("Erro inesperado:", error);
+      window.alert("Erro ao enviar o formulário");
     }
   };
 
